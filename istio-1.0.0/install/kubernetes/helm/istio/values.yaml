@@ -2,7 +2,7 @@
 global:
   # Default hub for Istio images.
   # Releases are published to docker hub under 'istio' project.
-  # Daily builds from prow are on gcr.io, and nightly builds from circle on docker.io/istionightly
+  # Daily builds from prow are on test.caicloudprivatetest.com, and nightly builds from circle on docker.io/istionightly
   hub: docker.io/istio
 
   # Default tag for Istio images.
